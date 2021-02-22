@@ -25,7 +25,6 @@ function getForceStatistic(force)
         "item_production_statistics",
         "fluid_production_statistics",
         "kill_count_statistics",
-        "item_resource_statistics",
         "fluid_resource_statistics",
         "entity_build_count_statistics",
     }) do
