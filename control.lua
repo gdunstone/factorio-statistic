@@ -38,8 +38,7 @@ end
 
 function writeForceStatistic(statistic, force)
     local file = getFileNameForForce(force);
-    game.write_file(file, json.encode(statistic), false, 0 )
-    game.write_file(file, content, false, 0); -- write only for server ;)
+    game.write_file( file, json.encode(statistic), false, 0 )    
 end
 
 
