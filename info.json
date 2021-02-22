@@ -1,10 +1,9 @@
 {
-  "name": "Statistic",
+  "name": "Statistic-JSON",
   "version": "1.0.1",
-  "title": "Web Statistic",
-  "author": "KaleR",
-  "contact": "mail@schaefti.de",
-  "homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=32645",
-  "factorio_version": "0.14",
-  "description": "Create statistic files which can be analysed from a web interface (see README.md)"
+  "title": "Web Statistics in JSON",
+  "author": "gdunstone",
+  "homepage": "https://github.com/gdunstone/factorio-statistic",
+  "factorio_version": "1.1",
+  "description": "Create statistic files in JSON format which can be analysed"
 }

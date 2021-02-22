@@ -1,5 +1,8 @@
 ## README
 
+This is forked and intended to create json files instead of whatever was created before.
+
+
 welcome to this mod. With its help you can easily create a web statistic view.
 
 Either you write your own, or you can just download my simple web view.
