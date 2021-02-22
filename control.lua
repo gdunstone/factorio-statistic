@@ -2,9 +2,9 @@ local json = require("dkjson")
 function getForceStatistic(force)
     local statistic = {
         stats = {},
-        forceData = {}
+        forceData = {},
+        ticks_played = game.ticks_played
     };
-
     if game.active_mods['teams'] ~= nil then
         for k,data in pairs(remove.call('teams','getFoceData')) do
             if data.cName == force.name then
