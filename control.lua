@@ -1,4 +1,4 @@
-require("json")
+local json = require("dkjson")
 function getForceStatistic(force)
     local statistic = {
         stats = {},
@@ -38,7 +38,7 @@ end
 
 function writeForceStatistic(statistic, force)
     local file = getFileNameForForce(force);
-    game.write_file(file, json.stringify(statistic), false, 0 )
+    game.write_file(file, json.encode(statistic), false, 0 )
     game.write_file(file, content, false, 0); -- write only for server ;)
 end
 
